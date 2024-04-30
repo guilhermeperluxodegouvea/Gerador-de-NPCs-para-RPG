@@ -1,2 +1,3 @@
 # Gerador de NPCs para RPG
- Feito em HTML, Javascript e CSS, era NPCs para RPG de fantasia medieval.
+ Feito em HTML, Javascript e CSS, gera NPCs para RPG de fantasia medieval. 
+ O objetivo do gerador é ajudar mestres de RPG a criarem personagens de maneira rápida sem complicação em caso de improviso. Ele utiliza de listas contendo 12 classes e 9 raças para criar personagens. Também possui uma lista com 100 traços de personalidade e cada NPC criado ganha 2 traços de personalidade aleatórios. O usuário também tem a opção de selecionar que o gerador crie personagens que vão além da binariedade de gênero.
