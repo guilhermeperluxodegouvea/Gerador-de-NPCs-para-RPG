@@ -1,0 +1,130 @@
+body { font-family: Arial, Helvetica, sans-serif; user-select: none;}
+
+#container { /* RETANGULO CINZA */
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 50%; 
+    height: 95vh;
+    background-color: #cccccc; 
+    border-radius: 10px;  }
+
+#titulo { /* TITULO */
+    position: absolute;
+    top: 51%; 
+    left: 56%; 
+    transform: translate(-50%, -50%); 
+    width: 50%;
+    height: 85vh;  }
+
+#icone { /* ICONE */
+    position: absolute;
+    top: 13%; 
+    left: 23%; 
+    transform: translate(-50%, -50%); 
+    height: 85vh; 
+    width: 150px;
+    height: auto; }
+
+#saida { /* RETÂNGULO BRANCO */
+    color: black;
+    position: absolute;
+    top: 46%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 73%; 
+    height: 40vh; 
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+    user-select: all;
+    text-align: center;}
+
+#gerarAv { /* BOTÃO GERAR AVENTUREIRO */
+    color: white;
+    position: absolute;
+    top: 80%; 
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    width: 23%;
+    height: 8vh; 
+    background-color: #4F1A8B;
+    font-weight: bold;
+    font-size: 95%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;}            
+#gerarCid { /* BOTÃO GERAR CIDADÃO */
+    color: white;
+    position: absolute;
+    top: 80%; 
+    left: 75%; 
+    transform: translate(-50%, -50%); 
+    width: 23%; 
+    height: 8vh; 
+    background-color: #4F1A8B;
+    font-weight: bold;
+    font-size: 95%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;}
+#gerarCid:active, #gerarAv:active { /* MUDANÇA DE COR*/
+    background-color: white; 
+    color: #4F1A8B; }
+
+#descricaoAv { /* INFO */
+    position: absolute;
+    top: 73%; 
+    left: 10%;
+    transform: translate(-50%, -50%); 
+    width: 25%;
+    height: 8vh; 
+    background-color: white;
+    font-size: 95%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s; }
+#descricaoCid { /* INFO */
+    position: absolute;
+    top: 73%; 
+    left: 90%;
+    transform: translate(-50%, -50%); 
+    width: 25%;
+    height: 8vh; 
+    background-color: white;
+    font-size: 95%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s; }
+#gerarAv:hover + #descricaoAv { /* INFO APARECER */
+    opacity: 1; }
+#gerarCid:hover + #descricaoCid { /* INFO APARECER */
+    opacity: 1; }
+
+#gerarLGBT { /* BOTÃO GERAR LGBT */
+    position: absolute;
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 100%;
+    height: 6vh;
+    color: #4F1A8B;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;}
+#gerarLGBT.clicado { /* MUDANÇA DE COR*/
+    border: 1px solid black; }
+        
+#creditos { /* CRÉDITOS */
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    width: 100%; 
+    text-align: center;
+    transform: translate(-50%, -50%); }
